@@ -9,6 +9,8 @@
         <entry key="app/src/main/res/layout/feed_fragment.xml" value="0.17798913043478262" />
         <entry key="app/src/main/res/layout/profile_fragment.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/stories_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/story_list_item.xml" value="0.15172101449275363" />
+        <entry key="app/src/main/res/layout/story_page.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.19322916666666667" />
       </map>
     </option>

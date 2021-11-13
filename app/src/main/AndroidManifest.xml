@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StoriesApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.story.StoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

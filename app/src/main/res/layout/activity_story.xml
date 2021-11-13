@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.story.StoryActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white_dimmed"/>
+
+    <View
+        android:id="@+id/statusProgress"
+        android:scaleX="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/storyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
